@@ -1,2 +1,4 @@
 # ATcourse
-university AT course
+university AT course(+epam)
+
+First work - Console calculator(java) - 4 operations : sum, deduct, divide, multiply
