@@ -529,3 +529,79 @@
 2016-12-12 16:43:54,524 INFO  [main] Browser started
 2016-12-12 16:44:05,732 INFO  [main] Login page opened
 2016-12-12 16:44:07,301 INFO  [main] Logged in = true
+2016-12-28 15:40:35,362 INFO  [main] Browser started
+2016-12-28 15:40:43,531 INFO  [main] Login page opened
+2016-12-28 15:40:45,775 INFO  [main] Logged in = true
+2016-12-28 15:41:03,351 INFO  [main] Browser started
+2016-12-28 15:41:09,354 INFO  [main] Login page opened
+2016-12-28 15:41:11,272 INFO  [main] Branch is true
+2016-12-28 15:41:45,008 INFO  [main] Browser started
+2016-12-28 15:41:49,590 INFO  [main] Login page opened
+2016-12-28 15:41:51,099 INFO  [main] Branch is true
+2016-12-28 15:42:15,251 INFO  [main] Browser started
+2016-12-28 15:42:20,340 INFO  [main] Login page opened
+2016-12-28 15:42:22,655 INFO  [main] Branch is true
+2016-12-28 15:42:35,899 INFO  [main] Browser started
+2016-12-28 15:42:40,415 INFO  [main] Login page opened
+2016-12-28 15:42:44,030 INFO  [main] Search is true. Count: 1
+2016-12-28 15:51:37,024 INFO  [main] Browser started
+2016-12-28 15:52:13,377 INFO  [main] Browser started
+2016-12-28 15:52:18,511 INFO  [main] Login page opened
+2016-12-28 15:52:20,233 INFO  [main] Branch is true
+2016-12-28 16:03:25,113 INFO  [main] Browser started
+2016-12-28 16:03:30,182 INFO  [main] Login page opened
+2016-12-28 16:10:44,243 INFO  [main] Browser started
+2016-12-28 16:10:49,164 INFO  [main] Login page opened
+2016-12-28 16:11:10,154 INFO  [main] Browser started
+2016-12-28 16:11:15,264 INFO  [main] Login page opened
+2016-12-28 16:11:35,522 INFO  [main] Browser started
+2016-12-28 16:11:40,017 INFO  [main] Login page opened
+2016-12-28 16:13:25,403 INFO  [main] Browser started
+2016-12-28 16:13:30,935 INFO  [main] Login page opened
+2016-12-28 16:14:02,709 INFO  [main] Browser started
+2016-12-28 16:14:07,113 INFO  [main] Login page opened
+2016-12-28 16:21:41,266 INFO  [main] Browser started
+2016-12-28 16:21:46,546 INFO  [main] Login page opened
+2016-12-28 16:22:08,197 INFO  [main] Browser started
+2016-12-28 16:22:12,259 INFO  [main] Login page opened
+2016-12-28 16:23:25,594 INFO  [main] Browser started
+2016-12-28 16:24:42,716 INFO  [main] Browser started
+2016-12-28 16:24:47,567 INFO  [main] Login page opened
+2016-12-28 16:27:16,723 INFO  [main] Browser started
+2016-12-28 16:27:21,808 INFO  [main] Login page opened
+2016-12-28 16:29:29,592 INFO  [main] Browser started
+2016-12-28 16:29:33,695 INFO  [main] Login page opened
+2016-12-28 16:34:11,303 INFO  [main] Browser started
+2016-12-28 16:34:16,013 INFO  [main] Login page opened
+2016-12-28 16:34:48,787 INFO  [main] Browser started
+2016-12-28 16:34:53,565 INFO  [main] Login page opened
+2016-12-28 16:44:50,070 INFO  [main] Browser started
+2016-12-28 16:44:55,039 INFO  [main] Login page opened
+2016-12-28 16:44:56,311 INFO  [main] https://by.rutracker.org/forum/
+2016-12-28 16:44:56,311 INFO  [main] https://by.rutracker.org/forum/
+2016-12-28 16:45:17,746 INFO  [main] Browser started
+2016-12-28 16:45:25,070 INFO  [main] Login page opened
+2016-12-28 16:45:28,287 INFO  [main] https://by.rutracker.org/forum/
+2016-12-28 16:45:28,287 INFO  [main] https://by.rutracker.org/forum/
+2016-12-28 17:32:42,352 INFO  [main] Browser started
+2016-12-28 17:33:17,467 INFO  [main] Browser started
+2016-12-28 17:34:02,102 INFO  [main] Browser started
+2016-12-28 17:34:52,948 INFO  [main] Browser started
+2016-12-28 17:36:02,923 INFO  [main] Browser started
+2016-12-28 17:36:49,653 INFO  [main] Login page opened
+2016-12-28 17:37:54,046 INFO  [main] Browser started
+2016-12-28 17:38:19,948 INFO  [main] Login page opened
+2016-12-28 17:38:41,822 INFO  [main] Browser started
+2016-12-28 17:39:37,223 INFO  [main] Login page opened
+2016-12-28 17:39:55,069 INFO  [main] Browser started
+2016-12-28 17:40:20,351 INFO  [main] Login page opened
+2016-12-28 17:40:45,802 INFO  [main] Browser started
+2016-12-28 17:42:04,075 INFO  [main] Browser started
+2016-12-28 17:42:28,936 INFO  [main] Login page opened
+2016-12-28 17:43:52,554 INFO  [main] Browser started
+2016-12-28 17:44:25,468 INFO  [main] Login page opened
+2016-12-28 17:48:03,709 INFO  [main] Browser started
+2016-12-28 17:49:18,080 INFO  [main] Browser started
+2016-12-28 17:50:44,707 INFO  [main] Browser started
+2016-12-28 17:52:07,815 INFO  [main] Browser started
+2016-12-28 17:53:09,888 INFO  [main] Browser started

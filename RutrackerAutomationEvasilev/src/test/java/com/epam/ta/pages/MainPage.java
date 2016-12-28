@@ -2,10 +2,13 @@ package com.epam.ta.pages;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MainPage extends AbstractPage
 {
@@ -41,6 +44,15 @@ public class MainPage extends AbstractPage
 
     @FindBy(id = "search-submit")
     private WebElement searchButton;
+
+    @FindBy(xpath = "//a[@href='//by.rutracker.org/forum/']")
+    private WebElement changeLangButton;
+
+    @FindBy(xpath = "//a[@href='search.php?uid=22453972']")
+    private WebElement myMessageButton;
+
+    @FindBy(className = "mrg_16")
+    private WebElement MMpageMessage;
 
     @Override
     public void openPage()
@@ -111,4 +123,29 @@ public class MainPage extends AbstractPage
         String result = linuxGamesLink.getText().toString();
         return result;
     }
+
+    public void changeLanguage()
+    {
+        changeLangButton.click();
+    }
+
+    public String getUrl()
+    {
+        WebElement BYEElement = (new WebDriverWait(driver,20))
+                .until(ExpectedConditions.presenceOfElementLocated(By.partialLinkText("Для праваўладальнікаў")));
+        return driver.getCurrentUrl();
+    }
+
+    public void goToMyMessagePage()
+    {
+        myMessageButton.click();
+    }
+
+    public String getMMpageMessage()
+    {
+        return MMpageMessage.getText().toString();
+    }
+
+
+
 }

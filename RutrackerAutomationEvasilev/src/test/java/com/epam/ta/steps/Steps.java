@@ -5,8 +5,6 @@ import com.epam.ta.pages.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.reporters.jq.Main;
 
 public class Steps
 {
@@ -22,6 +20,12 @@ public class Steps
 	public void closeDriver()
 	{
 		driver.quit();
+	}
+
+	public void openPage()
+	{
+		MainPage mainPage = new MainPage(driver);
+		mainPage.openPage();
 	}
 
 	public void loginRutracker(String name, String pwd)
@@ -57,6 +61,13 @@ public class Steps
 		MainPage mainPage = new MainPage(driver);
 		mainPage.logout();
 	}
+
+	public void changeLanguage()
+	{
+		MainPage mainPage = new MainPage(driver);
+		mainPage.changeLanguage();
+	}
+
 
 	public String goToLinuxGamesBranch()
 	{
@@ -97,6 +108,26 @@ public class Steps
 			return false;
         }
     }
+
+    public boolean isLanguageChanged(String URL)
+	{
+		MainPage mainPage = new MainPage(driver);
+		String realURL = mainPage.getUrl();
+		return realURL.equals(URL);
+	}
+
+	public void goToMMpage()
+	{
+		MainPage mainPage = new MainPage(driver);
+		mainPage.goToMyMessagePage();
+	}
+
+	public boolean isInMMpage(String expected)
+	{
+		MainPage mainPage = new MainPage(driver);
+		String s = mainPage.getMMpageMessage();
+		return s.equals(expected);
+	}
 
 
 }
